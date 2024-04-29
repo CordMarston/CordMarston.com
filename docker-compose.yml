@@ -1,0 +1,35 @@
+version: '3.2'
+services:
+  app:
+    container_name: cordmarston_com
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    restart: always
+    tty: true
+    working_dir: /var/www
+    volumes:
+        - ./:/var/www
+        - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - npmnetwork
+  webserver:
+    container_name: cordmarston_com_webserver
+    image: nginx:alpine
+    restart: always
+    tty: true
+    ports:
+      - '8081:80'
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - npmnetwork
+networks:
+  npmnetwork:
+    external: true
+    driver: bridge
+
+volumes:
+  cordmarstondata:
+    driver: local 

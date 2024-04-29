@@ -1,0 +1,4 @@
+server {
+    server_name www.cordmarston.com
+    return 301 $scheme://cordmarston.com$request_uri;
+}

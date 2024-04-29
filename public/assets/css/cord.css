@@ -1,0 +1,68 @@
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+
+h1 {
+	font-size:36px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size:12px;
+}
+
+p, li {
+	font-size:14px;
+}
+
+.img-name {
+	width:100%;
+	max-width:130px;
+}
+
+.row-grey {
+	background-color:#ccc;
+	-webkit-clip-path: polygon(0 0%, 100% 6%, 100% 94%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 6%, 100% 94%, 0% 100%);
+}
+
+.contact-about {
+    /* margin-top:-80px; */
+}
+
+html, body {
+	padding:0;
+	margin:0;
+}
+
+.img-software {
+	width:80px;
+}
+
+.cust-image {
+	max-width:240px;
+}
+
+.cust-image-wide {
+	width:100%;
+}
+
+.banner, .bg-blue {
+	background:#1E90FF;
+}
+
+.bg-green {
+	background:#93ca44;
+}
+
+.bg-cust-dark {
+	background:#333;
+}
+
+.contact-drop {
+	margin-top:80px;
+}
