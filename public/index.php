@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="assets/css/bootstrap.4.3.1.css">
 <link rel="stylesheet" href="assets/css/icons.css">
-<link rel="stylesheet" href="assets/css/cord.css">
+<link rel="stylesheet" href="assets/css/cord2.css">
 <link rel="stylesheet" href="assets/css/confirm.min.css">
 <link href="assets/css/mdb.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
@@ -13,17 +13,6 @@
 <script src="assets/js/all.js"></script>
 <script src="assets/js/confirm.js"></script>
 <script src="assets/js/contact.js"></script>
-<style>.hashtag {
-	font-size:10px;
-	color:#fff;
-	padding:1%;
-	background:#32CD32;
-	font-weight:bold;
-}
-</style>
-<script>
-	document.cookie = "username=John Doe; expires=Thu, 18 Dec 2022 12:00:00 UTC";
-</script>
 </head>
 <body>
 <section class="banner sticky-top">
@@ -42,21 +31,37 @@
 	<div class="container">
 		<div class="row">
 			<div class="col py-5 text-center">
-				<img src="images/cord-marston-small.jpg" alt="Cord Marston" class="rounded-circle profile-picture shadow animated fadeIn" width="225">
-				<h1 class="myname pt-">Cord Marston</h1>
-				<h2 class="pt-2 slideInLeft">Full Stack Developer</h2>
-				<div class="row align-items-center text-center d-block">
-					<div class="hashtag m-1 d-inline-block">#Father</div>
-					<div class="hashtag m-1 d-inline">#Developer</div>
-					<div class="hashtag m-1 d-inline">#Gamer</div>
-					<div class="hashtag m-1 d-inline">#DIYer</div>
+				<img src="images/cordmarston.jpg" alt="Cord Marston" class="rounded-circle profile-picture shadow animated fadeIn" width="225">
+			</div>
+			<div class="col text-center d-flex">
+				<div class="align-self-center align-middle w-100">
+					<h1 class="myname">Cord Marston</h1>
+					<h2 class="pt-1 slideInLeft">Full Stack Developer</h2>
+					<div class="row align-items-center text-center d-block pt-3">
+						<div class="hashtag m-1 d-inline-block">#Father</div>
+						<div class="hashtag m-1 d-inline">#Developer</div>
+						<div class="hashtag m-1 d-inline">#Gamer</div>
+						<div class="hashtag m-1 d-inline">#DIYer</div>
+					</div>
+					<div class="row align-items-center text-center d-block pt-4">
+						<a href="https://github.com/CordMarston" target="_blank"><img src="images/github.png" style="max-width:100px;"></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="top-project row-grey py-5">
-	<div class="container">
+<section class="project-label p-4 text-center text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Sample Projects:</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="top-project row-grey py-5 mt-4">
+	<div class="container mt-4">
 		<div class="row py-5">
 			<div class="col-sm">
 				<img src="images/dashboard-laptop.png" alt="Z Networks Dashboard" class="w-100 cust-image-wide">
@@ -76,15 +81,40 @@
 			<p class="text-center pt-2"><img src="images/php-logo.png" alt="PHP" class="img-software d-inline px-2"><img src="images/mysql-logo.png" alt="MySQL" class="img-software d-inline px-2"><img src="images/jquery.png" alt="jQuery" class="img-software d-inline px-2"><img src="images/javascript-logo.png" alt="Javascript" class="img-software d-inlin px-2"><img src="images/google-api.png" alt="Google API" class="img-software d-inline px-2"></p>
 			</div>
 		</div>
+		<div class="row py-5">
+			
+			<div class="col-sm pt-xl-0 pt-4">
+				<h2 class="font-weight-bold"><a href="#">Z Networks Dashboard V2</a></h2>
+				<p>The Z Networks Dashboard was rebuilt utilizing modern frameworks so that onboarding developers would be easier and work would be streamlined.</p>
+				<p>The newer version consisted of a sales CRM allowing a sales team to manage all of their leads communication including calling, emailing, scheduling all in one place. The system also incorporated websockets to speed up notifications along with a collaborative text editor allowing multiple users to enter information into the same document at the same time.</p>
+				<p class="text-center pt-2"><img src="images/vuelogo.png" alt="Vue" class="img-software d-inline px-2"><img src="images/laravel.png" alt="Laravel" class="img-software d-inline px-2"><img src="images/bootstrap.svg" alt="Bootstrap" class="img-software d-inline px-2"><img src="images/javascript-logo.png" alt="Javascript" class="img-software d-inlin px-2"><img src="images/mysql-logo.png" alt="MySQL" class="img-software d-inline px-2"></p>
+			</div>
+			<div class="col-sm">
+				<img src="images/crm-znws.png" alt="Z Networks CRM" class="w-100 cust-image-wide">
+			</div>
+		</div>
 	</div>
 </section>
 <section class="second-project row-white py-3">
 	<div class="container">
 		<div class="row py-5">
 			<div class="col-sm text-center align-self-center order-sm-2">
-				<img src="images/android-car-app.png" alt="Android Car & Trucks Wallpaper App" class="cust-image">
+				<img src="images/mpgtrackerapp.jpg" alt="MPGTracker.app Screenshot" class="cust-image">
 			</div>
 			<div class="col-sm order-sm-1">
+				<h2 class="font-weight-bold"><a href="https://mpgtracker.app">MPGTracker.app</a></h2>
+				<p>MPGTracker.app was designed to experiment with NextJS and sharpen Git skills. The application uses NextJS alongside React to display the frontend. The backend consists of a postgres database and prisma as an ORM.</p>
+				<p>The site isn't finished and still needs OAUTH to be finished (currently only Google login works), data validation, rate limiting and much more. It's not necessarily a tool for the public to use but something for me to develop in my free time.</p>
+				<p class="text-center pt-2"><img src="images/Nextjs-logo.svg.png" alt="NextJS" class="img-software d-inline px-2"><img src="images/react.png" alt="React" class="img-software d-inline px-2"><img src="images/prisma-logo.svg" alt="Prisma" class="img-software d-inline px-2"><img src="images/postgres.png" alt="Postgres" class="img-software d-inline px-2"></p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="second-project row-grey py-3">
+	<div class="container">
+		<div class="row py-5">
+			
+			<div class="col-sm order-sm-2">
 				<h2 class="font-weight-bold"><a href="#">Android Car & Truck Wallpaper App</a></h2>
 				<p>Designed a car & truck wallpapers Android application. The application features a custom admin panel where the admin can add & remove wallpapers. All wallpapers are stored on the server and dynamically load into the app with ability to sort by category, most popular and image size.</p>
 				<p>The application has 1000+ downloads with users setting one of the wallpapers as their mobile background over 20,000+ times.</p>
@@ -92,11 +122,13 @@
 				<p>This app was removed from the Google Play store in 2021 as they no longer allowed this type of app, and I had no time to support making changes to it.</p>
 				<p class="text-center pt-2"><img src="images/java-logo.png" alt="Java" class="img-software d-inline px-2"><img src="images/php-logo.png" alt="PHP" class="img-software d-inline px-2"><img src="images/mysql-logo.png" alt="MySQL" class="img-software d-inline px-2"></p>
 			</div>
-			
+			<div class="col-sm text-center align-self-center order-sm-1">
+				<img src="images/android-car-app.png" alt="Android Car & Trucks Wallpaper App" class="cust-image">
+			</div>
 		</div>
 	</div>
 </section>
-<section class="third-project row-grey py-3">
+<section class="third-project row-white py-3">
 	<div class="container">
 		<div class="row py-5">
 			<div class="col-sm">
@@ -112,7 +144,7 @@
 		</div>
 	</div>
 </section>
-<section class="second-project row-white py-3">
+<section class="row-grey-bottom py-3">
 	<div class="container">
 		<div class="row py-5">
 			<div class="col-sm text-center align-self-center order-sm-2">

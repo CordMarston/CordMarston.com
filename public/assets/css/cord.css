@@ -2,6 +2,30 @@
 	font-family: "Open Sans", sans-serif;
 }
 
+.hashtag {
+	font-size:10px;
+	color:#fff;
+	padding:1%;
+	background:#32CD32;
+	font-weight:bold;
+}
+
+.project-label {
+	background:#333;
+	margin-top:20px;
+	z-index:10000;
+	position:absolute;
+	width:100%;
+
+}
+
+/* .project-label > .container {
+	-webkit-transform: skewY(-1deg);
+	-moz-transform: skewY(-1deg);
+	-ms-transform: skewY(-1deg);
+	-o-transform: skewY(-1deg);
+	transform: skewY(-1deg);
+  } */
 
 h1 {
 	font-size:36px;
@@ -25,9 +49,15 @@ p, li {
 }
 
 .row-grey {
-	background-color:#ccc;
+	background-color:#f1f1f1;
 	-webkit-clip-path: polygon(0 0%, 100% 6%, 100% 94%, 0% 100%);
     clip-path: polygon(0 0%, 100% 6%, 100% 94%, 0% 100%);
+}
+
+.row-grey-bottom {
+	background-color:#f1f1f1;
+	-webkit-clip-path: polygon(0 0%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 6%, 100% 100%, 0% 100%);
 }
 
 .contact-about {
@@ -66,3 +96,4 @@ html, body {
 .contact-drop {
 	margin-top:80px;
 }
+
