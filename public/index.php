@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="assets/css/bootstrap.4.3.1.css">
 <link rel="stylesheet" href="assets/css/icons.css">
-<link rel="stylesheet" href="assets/css/cord2.css">
+<link rel="stylesheet" href="assets/css/cord.css">
 <link rel="stylesheet" href="assets/css/confirm.min.css">
 <link href="assets/css/mdb.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
